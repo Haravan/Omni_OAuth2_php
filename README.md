@@ -2,4 +2,4 @@
 
 run "composer install"
 
-run url "http://localhost/hara_account"
+Open link : http://localhost/hara_account
