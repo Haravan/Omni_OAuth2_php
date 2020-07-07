@@ -1,11 +1,11 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-define("url_connect_authorize", 'https://accounts.hara.vn/connect/authorize');
-define("url_connect_token", 'https://accounts.hara.vn/connect/token');
-define("url_get_user_info", 'https://accounts.hara.vn/connect/userinfo');
+define("url_connect_authorize", 'https://accounts.haravan.com/connect/authorize');
+define("url_connect_token", 'https://accounts.haravan.com/connect/token');
+define("url_get_user_info", 'https://accounts.haravan.com/connect/userinfo');
 define("client_id", '434ff8a66d215c7f5a77c979d22cd866');
 define("clientSecret", '996e37985efbb9b2dc4804931b33120c2c9a21f097d283229d62c18bbf71099f');
-define("redirect_uri", "http://localhost/hara_account/");
+define("redirect_uri", "http://localhost/haravan_account/");
 
 $code = array_key_exists("code", $_POST) ? $_POST["code"] : "";
 
