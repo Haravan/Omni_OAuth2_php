@@ -2,4 +2,4 @@
 
 run "composer install"
 
-Open link : http://localhost/hara_account
+Open link : http://localhost/haravan_account
